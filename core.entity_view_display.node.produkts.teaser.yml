@@ -1,0 +1,42 @@
+uuid: 63433710-8859-45e8-bad0-3506b76bee7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.produkts.body
+    - field.field.node.produkts.field_cena
+    - field.field.node.produkts.field_kategorija
+    - field.field.node.produkts.field_lidzigi_produkti
+    - field.field.node.produkts.field_pieejamiba_noliktava
+    - field.field.node.produkts.field_produkta_attels
+    - field.field.node.produkts.field_razotaja_nosaukums
+    - node.type.produkts
+  module:
+    - text
+    - user
+id: node.produkts.teaser
+targetEntityType: node
+bundle: produkts
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_cena: true
+  field_kategorija: true
+  field_lidzigi_produkti: true
+  field_pieejamiba_noliktava: true
+  field_produkta_attels: true
+  field_razotaja_nosaukums: true

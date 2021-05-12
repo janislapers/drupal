@@ -1,0 +1,19 @@
+uuid: dc4286c8-e3eb-48fb-86b0-6cf016caa0f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_razotaja_nosaukums
+    - node.type.produkts
+id: node.produkts.field_razotaja_nosaukums
+field_name: field_razotaja_nosaukums
+entity_type: node
+bundle: produkts
+label: 'Ražotāja nosaukums'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

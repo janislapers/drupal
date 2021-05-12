@@ -1,0 +1,14 @@
+uuid: 3dce5f6a-e115-4ca1-bcc3-3cf4ebc593c9
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - jankavvv@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

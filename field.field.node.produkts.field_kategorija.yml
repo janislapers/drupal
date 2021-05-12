@@ -1,0 +1,29 @@
+uuid: e6be00a8-a997-4b20-ad97-b6271567f325
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_kategorija
+    - node.type.produkts
+    - taxonomy.vocabulary.produktu_katalogs
+id: node.produkts.field_kategorija
+field_name: field_kategorija
+entity_type: node
+bundle: produkts
+label: Kategorija
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      produktu_katalogs: produktu_katalogs
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
