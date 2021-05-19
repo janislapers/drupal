@@ -19,7 +19,10 @@
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
-        "drupal/core-vendor-hardening": "^9.1"
+        "drupal/core-vendor-hardening": "^9.1",
+        "drupal/twitter_api_block": "^3.0",
+        "drupal/twitter_block": "3.x-dev@dev",
+        "j7mbo/twitter-api-php": "^1.0"
     },
     "conflict": {
         "drupal/drupal": "*"

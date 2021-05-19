@@ -1,0 +1,4 @@
+base:
+  version: VERSION
+  js:
+    https://platform.twitter.com/widgets.js: { type: external, async: true }

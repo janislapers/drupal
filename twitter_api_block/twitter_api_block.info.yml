@@ -1,0 +1,13 @@
+name: 'Twitter API Block'
+type: module
+description: 'Add a custom block to display your tweets in Drupal.'
+# core: 8.x
+package: Twitter
+dependencies:
+  - drupal:block
+
+# Information added by Drupal.org packaging script on 2019-08-14
+version: '8.x-2.6'
+core: '8.x'
+project: 'twitter_api_block'
+datestamp: 1565779386

@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Contains install, uninstall and update hooks.
+ */
+
+/**
+ * Remove instances of deprecated TwitterHashTagBlock.
+ */
+function twitter_api_block_update_8001() {
+  $blocks = \Drupal::entityTypeManager()->getStorage('block')->loadByProperties([
+    'plugin' => 'twitter_hashtag_block',
+  ]);
+
+  foreach ($blocks as $id => $block) {
+    $block->set('plugin', 'twitter_search_block');
+    $block->save();
+  }
+}
