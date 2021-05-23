@@ -1,0 +1,6 @@
+helloworld.default_controller_hello:
+  title: 'Nejaušs citāts'
+  description: 'Nejaušs citāts'
+  route_name: helloworld.default_controller_hello
+  weight: 100
+  menu_name: main

@@ -1,0 +1,10 @@
+name: 'Citātu Ģenerators. J.L'
+type: module
+description: 'Šis modulis parāda citātus, izmantojot api.quotable.io'
+core_version_requirement: ^8 || ^9
+package: 'Custom'
+
+# Information added by Drupal.org packaging script on 2019-12-07
+version: '8.x-1.3'
+project: 'helloworld'
+datestamp: 1575735787
